@@ -4,7 +4,10 @@ import { useEffect } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Interpolate from './compoent/Interpolate';
 import Animated ,{ useSharedValue, useAnimatedStyle, withTiming, withSpring, withRepeat, interpolate } from 'react-native-reanimated';
-import Interpolatecolor from './compoent/Interpolatecolor';
+import PinchH from './compoent/PinchH';
+import PanGesture from './compoent/PanGesture';
+// import Interpolatecolor from './compoent/Interpolatecolor';
+
 // const size =100.0
 // const handleRotation = (progress: Animated.SharedValue<number>) => {
 // 'worklet' ;
@@ -33,14 +36,13 @@ export default function App() {
   
   return (
     <>
+
     {/* <Interpolate/> */}
-
-
-
     {/* <Interpolatecolor/> */}
+    <PinchH/>
+    {/* <PanGesture/> */}
 
 
-    
     </>
     // <View>
     // <Animated.View style = {[{height:size, width: size, backgroundColor:'#4286f4'}, reanimated,]} />
