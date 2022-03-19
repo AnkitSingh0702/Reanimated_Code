@@ -1,11 +1,13 @@
 //Introduction to reanimated 
 import { StatusBar } from 'expo-status-bar';
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Interpolate from './compoent/Interpolate';
 import Animated ,{ useSharedValue, useAnimatedStyle, withTiming, withSpring, withRepeat, interpolate } from 'react-native-reanimated';
 import PinchH from './compoent/PinchH';
 import PanGesture from './compoent/PanGesture';
+import Doubletap from './compoent/Doubletap';
+import CircularProgress from './compoent/CircularProgress';
 // import Interpolatecolor from './compoent/Interpolatecolor';
 
 // const size =100.0
@@ -39,8 +41,11 @@ export default function App() {
 
     {/* <Interpolate/> */}
     {/* <Interpolatecolor/> */}
-    <PinchH/>
+    {/* <PinchH/> */}
     {/* <PanGesture/> */}
+    {/* <Doubletap/> */}
+<CircularProgress/>
+   
 
 
     </>
