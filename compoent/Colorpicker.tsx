@@ -4,7 +4,6 @@ import { LinearGradient } from "expo-linear-gradient";
 import {
   PanGestureHandler,
   PanGestureHandlerGestureEvent,
- 
   TapGestureHandlerGestureEvent,
 } from "react-native-gesture-handler";
 import { TapGestureHandler } from "react-native-gesture-handler";
@@ -39,9 +38,6 @@ const ColorPicker: React.FC<props> = ({ COLORS, onColorChange }) => {
   >({
     onStart: (_, context) => {
       context.x = absoluteLimit.value;
-      //this doesn't metter because TapGesture has priority
-      //   translatey.value = withSpring(-40);
-      //   scale.value = withSpring(1.2);r
     },
     onActive: (e, context) => {
       translateX.value = e.translationX + context.x;
@@ -116,7 +112,7 @@ export default ColorPicker;
 const styles = StyleSheet.create({
   main: {
     justifyContent: "center",
-    // alignItems:'center'
+    
   },
   colorBar: {
     height: 30,
