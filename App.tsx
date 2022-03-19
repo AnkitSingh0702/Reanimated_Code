@@ -8,6 +8,7 @@ import PinchH from './compoent/PinchH';
 import PanGesture from './compoent/PanGesture';
 import Doubletap from './compoent/Doubletap';
 import CircularProgress from './compoent/CircularProgress';
+import ColorPickerMain from './compoent/Colorpickermain';
 // import Interpolatecolor from './compoent/Interpolatecolor';
 
 // const size =100.0
@@ -44,7 +45,8 @@ export default function App() {
     {/* <PinchH/> */}
     {/* <PanGesture/> */}
     {/* <Doubletap/> */}
-<CircularProgress/>
+{/* <CircularProgress/> */}
+<ColorPickerMain/>
    
 
 
