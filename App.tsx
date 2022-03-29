@@ -9,6 +9,8 @@ import PanGesture from './compoent/PanGesture';
 import Doubletap from './compoent/Doubletap';
 import CircularProgress from './compoent/CircularProgress';
 import ColorPickerMain from './compoent/Colorpickermain';
+import Swipedelete from './compoent/Swipedelete';
+import Clockloader from './compoent/Clockloader';
 // import Interpolatecolor from './compoent/Interpolatecolor';
 
 // const size =100.0
@@ -46,8 +48,9 @@ export default function App() {
     {/* <PanGesture/> */}
     {/* <Doubletap/> */}
 {/* <CircularProgress/> */}
-<ColorPickerMain/>
-   
+{/* <ColorPickerMain/> */}
+{/* <Swipedelete/> */}
+<Clockloader/>   
 
 
     </>
